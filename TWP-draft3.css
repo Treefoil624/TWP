@@ -1,0 +1,261 @@
+/* gallery grid CSS */
+      
+	
+	body {background-color: #ebe0b2;
+	width: 1000px;
+	margin: auto;
+	justify-content: center;
+		
+	font-family: Tahoma, sans-serif;
+	font-size: 100%;
+	}
+		
+		.wrapper {
+			background: #eaf4f4;
+			width: 870px;
+			margin-left:auto;
+			margin-right: auto;
+			padding-top: 30px;
+			padding-right:40px;
+			padding-left: 40px;
+			padding-bottom: 30px;
+		}
+		
+		h1 {
+			color: #354f52;
+			font-family:"forma-djr-display", sans-serif;
+			text-align: center;
+			line-height: 1.0;
+		}
+		/* if there is an h1 on the page, then change its color to
+		seagreen and change its size to 80 pixels in height */
+		
+		h2 {
+			color: #2A324B;
+			font-family:"forma-djr-display", sans-serif;
+		}
+		
+		h3{
+			font-family:"forma-djr-display", sans-serif;
+		}
+		
+		
+		em.purple {
+			background-image: url("images_resized/green-sea.gif");
+			color: transparent;
+			background-clip: text;
+			padding-right: 2px;
+			padding-left: 2px;
+			
+		}
+		
+		
+		li {
+			color:#394467;
+			font-family:"legitima", serif;
+		}
+		
+		a {
+			text-decoration: none;
+			color:#6b9080;
+			
+		}
+
+		a:hover{
+				text-decoration: underline;
+		}
+
+		.about{
+			text-align: center;
+		}
+		
+		#table {
+			table-layout: auto;
+			
+		}
+		
+		tr{
+			background-color: #f6fff8;
+		}
+		
+		th{
+			background: #354f52;
+			color: #f6fff8;
+		}
+		
+		td{
+			font-size: 14px;
+			font-family:"legitima", serif;
+			
+		}
+
+		.site-nav-flex{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			column-gap: 32px;
+			font-family:"forma-djr-display", sans-serif;
+			font-weight: bold;
+		}
+		
+		.site-nav-flex a{
+			color:#354f52;
+			text-decoration: none;
+			padding: 5px 10px;
+			border: 1px solid #354f52;
+			border-radius: 20px;
+		}
+		.site-nav-flex a.logo{
+			text-decoration: none;
+					padding: 0px;
+					border: 0px;
+					border-radius: 0px;
+		}
+
+		.site-nav-flex a.logo:hover{
+			background: none;
+		}
+		.site-nav-flex a:hover{
+					background: #a4c3b2;
+					color: #f6fff8;
+					border: 0px;
+	
+		} 
+
+		.page-nav a{
+			color:#354f52;
+					text-decoration: none;
+		}
+		
+		
+
+		.page-nav a:hover{
+			color: #354f52;
+		}
+		
+/*
+		.site-nav{
+			display: grid;
+			grid-auto-flow: column;
+			grid-gap: 10px;
+			padding: 10px;
+			align-items: center;
+			color:aliceblue;
+			font-family:"forma-djr-display", sans-serif;
+			font-weight: bold;
+		}
+*/
+		.site-logo-image {
+			height: 70px;
+		}
+		
+/*
+		.site-nav a {
+			justify-self: center;
+			color:#354f52;
+			text-decoration: none;
+			padding: 5px 10px;
+			border: 1px solid #354f52;
+			border-radius: 20px;
+			
+		}
+*/
+		
+		.page-nav {
+			width: fit-content;
+			text-align: center;
+			background: #6b9080;
+			color:aliceblue;
+			margin: auto;
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+		
+		.page-nav a {
+			color:#f6fff8;
+			
+		}
+
+		.gallery-grid {
+			display: grid;
+			grid-template-columns: auto auto auto;
+			grid-row-gap: 20px;
+			justify-items: center;
+			align-items: start;
+			justify-content: space-around;
+		}
+
+		.gallery-item {
+			width: 300px;
+			text-align: center;
+		}
+
+		.gallery-item p{
+			margin: .25em 0;
+			line-height: 135%;
+		}
+
+		.center{
+			display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		}
+
+		.caption{
+			text-align: center;
+			font-size: 14px;
+			font-style: italic;
+		}
+
+		.reference a{
+			color:#6b9080;
+		}
+
+
+		.button a{
+			background: #a4c3b2;
+			color:#f6fff8;
+			text-decoration: none;
+			font-size: 14px;
+			border-radius: 10px;
+			padding:5px;
+		}
+		.button a:hover{
+			background:#cad2c5;
+			color: #f6fff8;
+
+		}
+
+		.site-logo{
+			color:#52796f;
+			float: left;
+			margin-top: 15px;
+			margin-left: 10px;
+
+		}
+
+		.site-logo:hover{
+			color:#a4c3b2;
+		}
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-row-gap: 20px ;
+            justify-items: center;
+            align-items: start;
+            justify-content: space-between;
+        }
+                        
+        .gallery-item {
+            width: 264px; /*should match the width of your images + width of border (if any) */
+            text-align: center;
+        } 
+        
+    /* css for styling the p/caption under the image */       
+        .gallery-item p {
+            margin: .25em 0;
+            line-height: 135%;
+        }
+		
